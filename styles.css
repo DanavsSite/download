@@ -1,0 +1,101 @@
+#video-id{
+
+
+border-radius: 9px;
+
+}
+
+@media (max-width: 1000px) {
+
+    #video-id{
+
+        border-radius: 9px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    #main-div{
+
+        text-align: center;
+        margin:19px;
+    }
+   #desc{
+
+    margin: 1em;
+
+   }
+    
+}
+
+
+@media (min-width:1000px) {
+
+    #download{
+        margin-left:9.8em;
+        margin-top: em;
+    }
+
+    #video-id{
+
+        margin-left: 1em;
+        margin-top: 1em;
+        margin-right: 1em;
+    }
+
+    #desc{
+
+        margin-left: 1em;
+
+    }
+    #download{
+
+        margin-left: 5.9em;
+
+    }
+    #main-div{
+
+        float: left;
+
+    }
+    #desc-p{
+
+        margin: 1em;
+
+    }
+        
+}
+#more{
+
+    display: none;
+    margin-right: 1em;
+
+}
+#myBtn{
+    color: rgb(151, 151, 151);
+    border: none;
+    background-color: transparent;
+
+
+}
+#myBtn:hover{
+    
+    color: rgb(169, 168, 168);
+
+}
+
+body{
+
+    background-color: rgb(16, 13, 23);
+
+}
+html{
+
+    background-color: rgb(16, 13, 23);
+
+}
+
+*{
+
+    font-family: 'Poppins', sans-serif;
+
+}
