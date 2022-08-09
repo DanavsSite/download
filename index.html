@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="mdb.min.css" />
     <script src="main.js" defer></script>
   </head>
-  <body style="background-color: rgb(16, 13, 23); color:rgb(151, 151, 151);">
+  <body style="background-color: rgb(16, 13, 23); color:rgb(151, 151, 151);" >
     <nav class="navbar navbar-expand-lg navbar-dark " style="background-color: #5c0608 ; color:#ccb19d ;">
       <div class="container-fluid">
         <span class="navbar-brand" href="#">Danav</span>
@@ -57,7 +57,8 @@
     <div></div>
     
     <!-- MDB -->
-    <div id="main-div"> <video src="untitled.mp4" id="video-id" style="min-width:11em; max-width:22em;"></video> <br> <button type="button" class="btn btn-outline-danger btn-rounded btn-lg" data-mdb-ripple-color="dark" id="download" style="  width:13rem" > <i class="fas fa-download"></i> Download</button></div>
+    <div id="main-div" align="center"> <video src="untitled.mp4" id="video-id" style="min-width:11em; max-width:22em;"></video> <br>
+   <button type="button" id="downbtn" class="btn btn-outline-danger btn-rounded btn-lg" data-mdb-ripple-color="dark" id="download" style="  width:13rem" > <i class="fas fa-download"></i> Download</button></div>
     <script type="text/javascript" src="mdb.min.js"></script>
     <div id="desc"><p id="desc-p" style="margin-right:0.9em;">
       
@@ -66,6 +67,11 @@
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel<span id="dots">...</span><span id="more">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>
 
       <button onclick="myFunction()" id="myBtn" style="margin: 0.9em;">Read more</button></div>
-    
+    <script>
+      var btn = document.getElementById("downbtn");
+      btn.addEventListener("click",()=>{
+        window.open("https://drive.google.com/uc?export=download&id=1L9Xb22yhskTS4YSiGGZwpa0uDAa1UX9L");
+      })
+    </script>
   </body>
 </html>
